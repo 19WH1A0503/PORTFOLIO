@@ -1,0 +1,73 @@
+.Main{
+  display: grid;
+  grid-template-columns: 1fr auto; 
+  grid-template-areas:
+    "content nav"; 
+
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  align-content: center;
+}
+
+
+
+
+
+.Info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 25px;
+
+}
+
+.Info p {
+
+  display: flex;
+}
+
+
+.ProjectList {
+    flex: right;
+    width: 650px;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    text-align: center;
+  }
+  
+  .ul {
+
+    padding: 0;
+    margin: 0;
+    width: 50%; 
+    text-align: left;
+  }
+
+  
+  .ProjectList li {
+    list-style: none;
+    padding: 10px;
+  }
+  
+.ProjectList li p{
+    font-size: 20px;
+}
+  
+.pro_title{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bolder;
+  
+}
+ 
+.pro_title:hover{
+transform: scale(1.5);
+}
+  
+  

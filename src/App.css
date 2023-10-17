@@ -1,0 +1,27 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr auto; 
+  grid-template-areas:
+    "content nav"; 
+
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  writing-mode: vertical-lr; 
+  text-align: center;
+}
+
+.c {
+  grid-area: content;
+  max-width: 90%;
+  margin: 20px;
+  padding: 20px;
+}
