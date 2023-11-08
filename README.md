@@ -1,2 +1,2 @@
-https://portfolio.github.oi/index.html
+https://portfolio.github.io/index.html
 
